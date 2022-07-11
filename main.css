@@ -78,7 +78,154 @@ img {display: block;}
     0% {left: 0; top: 0;}
     100% {left: 100px; top: 0;}
 }
+
+.scroll_header {
+    width: 100%;
+    position: fixed;
+    top: 0; left: 0;
+    background-color: #F3EFDF;
+    opacity: 0;
+}
+.scroll_header i,
+.scroll_header a,
+.scroll_header .inner a{
+    color: black;
+}
 /* ------header & main_visual------ */
+
+
+/* ------my_page------ */
+.my_page {
+    position: absolute;
+    top: 0; right: 0;
+    background-color: #F3EFDF;
+    width: 400px; height: 100vh;
+    padding: 0 20px;
+}
+.my_page .login {
+    height: 160px;
+    border-bottom: 1px solid #888;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 10px;
+}
+.my_page .login p {
+    margin-top: 25px;
+}
+.my_page .login_btn {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.my_page .login_btn a {
+    width: 150px; height: 40px;
+    border: 1px solid #888;
+    box-sizing: border-box;
+    line-height: 40px;
+    margin-top: 15px;
+    transition: all 0.5s;
+}
+.my_page .login_btn a:hover {
+    background-color: #007157;
+    color: white;
+    border: none;
+}
+.tap {
+    display: flex; 
+    justify-content: center;
+    margin-top: 30px;
+}
+.tap a {
+    display: block;
+    width: 200px; height: 50px;
+    border: 1px solid #888;
+    box-sizing: border-box;
+    line-height: 50px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 15px;
+    transition: all 0.5s;
+}
+.tap a:last-child {
+    border-left: none;
+}
+.tap a:hover {
+    background-color: #007157;
+    color: white;
+    border: none;
+}
+.delivery {
+    border-bottom: 1px solid #888;
+    text-align: center;
+    margin-top: 20px;
+}
+.delivery p {
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #888;
+}
+.delivery span {
+    display: inline-block;
+    height: 60px;
+    margin-top: 15px;
+    margin-right: 35px;
+}
+.delivery span:last-child {margin-right: 0;}
+.delivery strong {
+    display: block;
+    color: #007157;
+}
+.my_page .info {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-bottom: 1px solid #888;
+}
+.my_page .info p {
+    flex: 1;
+    border-right: 1px solid #888;
+}
+.my_page .info p:last-child {border-right: none;}
+.my_page .info strong {
+    margin-left: 20px;
+    color: #007157;
+}
+.account_info {
+    margin-top: 20px;
+    border: 1px solid #888;
+    border-bottom: 0;
+    display: flex;
+     margin-top: 40px;
+}
+.info_box01,
+.info_box02 {
+    flex: 1;
+    text-align: center;
+}
+.info_box01 li, 
+.info_box02 li {
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #888;
+}
+.info_box01 {
+    border-right: 1px solid #888;
+}
+.recent .title {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0 20px 0;
+}
+.recent span {
+    display: block;
+    border: 1px solid #888;
+    width: 400px; height: 150px;
+    text-align: center;
+    line-height: 150px;
+}
+/* ------my_page------ */
 
 
 /* ------event------ */
@@ -306,7 +453,25 @@ img {display: block;}
     font-weight: bold;
     text-decoration: underline;
 }
-
+.f_box03 .notice {
+    font-size: 18px;
+    line-height: 31px;
+    margin-top: 10px;
+}
+.f_box04 {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.f_box04 a {
+    display: block;
+    width: 200px; height: 60px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 60px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
 /* ------footer------ */
 
 /* ------button------ */
